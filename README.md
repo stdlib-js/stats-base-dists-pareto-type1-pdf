@@ -65,13 +65,13 @@ where `alpha > 0` is the shape parameter and `beta > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-pdf@esm/index.mjs';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-pdf@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-pdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-pdf@v0.2.1-esm/index.mjs';
 ```
 
 #### pdf( x, alpha, beta )
@@ -161,7 +161,7 @@ y = mypdf( 2.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-pdf@esm/index.mjs';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-pdf@v0.2.1-esm/index.mjs';
 
 var alpha;
 var beta;
